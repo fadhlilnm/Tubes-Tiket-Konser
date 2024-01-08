@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="01375903-bd9a-4883-be92-d4a12fe1b171">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="id_beli" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT
+     *
+FROM
+     pesanan WHERE id_pembelian = $P{id_beli}]]>
+	</queryString>
+	<field name="id_pembelian" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama_pembeli" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="no_telp" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="email" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama_artist" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tanggal_konser" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="lokasi_konser" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="class_tiket" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="harga_tiket" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="jumlah_tiket" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="total_harga" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="waktu_pembelian" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="249" y="14" width="314" height="36" uuid="2d805e57-43a5-44d2-a001-1921710dee7b"/>
+				<textElement>
+					<font size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BUKTI PEMBELIAN TIKET]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="118" splitType="Stretch">
+			<staticText>
+				<reportElement x="453" y="0" width="131" height="20" uuid="2391c6d5-09ab-41c0-9628-3ae8f75fa005"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Waktu Pembelian	:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="594" y="0" width="184" height="20" uuid="cf54ead9-0815-48ff-b079-131b17c8b9cc"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{waktu_pembelian}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="22" y="30" width="131" height="20" uuid="65586b92-2e62-46da-9478-c3f9b6cd0ed5"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Nama Pembeli :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="0" width="131" height="20" uuid="ba950cac-70bf-4175-8ba3-089255bacd6f"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[ID Pembelian :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="61" width="131" height="20" uuid="148dc844-244c-44b3-9005-f8fd2b448dcc"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[No. Telp	:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="91" width="131" height="20" uuid="5667e69e-1493-44c3-b737-95f2fa75a988"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Email		:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="166" y="0" width="208" height="20" uuid="1551ba39-e823-4daa-a187-77374ab6a688"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{id_pembelian}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="166" y="30" width="208" height="20" uuid="014efbd0-5efd-4f2b-98b3-d0fa6350eda6"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama_pembeli}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="166" y="61" width="208" height="20" uuid="e79623a6-9e96-4ce6-8cbe-8ee439aea473"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{no_telp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="166" y="91" width="208" height="20" uuid="73d9d0b5-b45e-47cb-a1e3-3658ee41bcf2"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{email}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="147" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="18" width="802" height="1" uuid="2d01e61d-a199-4886-9ba2-69a5a4e507ff"/>
+			</line>
+			<line>
+				<reportElement x="0" y="67" width="802" height="1" uuid="c4c2f30f-0a04-47a4-a609-63f30ee62f8a"/>
+			</line>
+			<staticText>
+				<reportElement x="10" y="34" width="99" height="20" uuid="392e9d05-6d12-4fb5-ad55-006e1f12bc93"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Nama Artist]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="153" y="34" width="112" height="20" uuid="c5097a42-9285-49e6-9729-552686267de4"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Tanggal Konser]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="316" y="34" width="112" height="20" uuid="6022e3b2-758d-4010-8307-fb2db927c040"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Lokasi Konser]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="467" y="34" width="85" height="20" uuid="ddcb38dc-835c-4bfe-948b-61b1812a1b0e"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Class Tiket]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="584" y="34" width="101" height="20" uuid="d6fa11c9-ad8b-43e3-a000-afc3f12ef754"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Harga Tiket]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="707" y="34" width="95" height="20" uuid="aeb353fe-6707-4beb-a65e-d3cf25902096"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Jumlah Tiket]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="10" y="80" width="119" height="20" uuid="34535b7c-4930-4341-a7fa-01917000887b"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama_artist}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="153" y="80" width="132" height="20" uuid="7c8c868a-6989-4b65-bf30-7a1e3eb69354"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tanggal_konser}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="295" y="80" width="158" height="20" uuid="cb403b5b-df11-446b-be99-37ab0d3be4cb"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{lokasi_konser}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="467" y="80" width="100" height="20" uuid="66cda08f-008e-4f53-95b2-cffb2980e227"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{class_tiket}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="584" y="80" width="123" height="20" uuid="58c0b8f0-cd31-4b6c-b3c3-29718f59bd30"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{harga_tiket}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="718" y="80" width="111" height="20" uuid="a0404d60-2081-4807-a5b5-5fc4069b271a"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{jumlah_tiket}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="414" y="127" width="138" height="20" uuid="a504e670-58f8-4e61-aa23-a865e3a8213e"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Total Pembelian :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="563" y="127" width="235" height="20" uuid="443e5539-d8cc-4d50-b35b-37025b7d845f"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_harga}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

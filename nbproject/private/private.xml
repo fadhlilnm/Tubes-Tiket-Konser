@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/model/ConcertDatabase.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/view/ConcertMenu.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/controller/ConcertTicketController.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/view/JDialogShowTicket.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/Koneksi/db.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/view/Purchase.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/laporan/Report.jrxml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/view/Admin.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/controller/Driver.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/view/JDialogShowConcert.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/model/Ticket.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/model/ConcreteConcert.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/view/JDialogReceipt.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/view/Login.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/view/JDialogTambah.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/model/VipTicket.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/model/RegularTicket.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/model/TicketPurchase.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/view/Home.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/model/Concert.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/model/ConcertTicketApp.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/view/Register.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/view/JDialogEdit.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/tiketkonser/src/view/JDialogEditTicket.java</file>
+        </group>
+    </open-files>
+</project-private>
